@@ -1,6 +1,6 @@
 # Elysian Realm Guide For Honkai Impact 3rd
 
-> For v 5.8
+> For v 5.9
 
 Elysian realm is ~~hard~~ fun 😉. I made this web-based guide because ~~why not?~~ i challenge myself since rentry just a bunch of text and hard to do some styling 💩.
 
@@ -55,7 +55,6 @@ If you want to update guide recommendation (signets, builds), **just make a new 
 - KenTJY#3888: theory crafter and tester
 - Zithr0#9800: theory crafter and tester
 - BananaCannon#3312: tester
-- ignihyde#4498: tester
 - Fujinee#3002: tester
 - Topperoonie#0484: tester
 - SinsOfSeven#3164 (TencentDimepiece): tester and fellow guide maker Signet list [here](https://rentry.org/elysian_realm_list)
@@ -67,7 +66,7 @@ If you want to update guide recommendation (signets, builds), **just make a new 
 - [Remove Background](https://www.remove.bg)
 - [Color Pallete](https://tailwindcss.com)
 - [Design Inspiration](https://www.leagueoflegends.com/en-us/champions)
-- [Opengraph](https://www.pixiv.net/en/artworks/97129345)
+- [Opengraph](https://www.pixiv.net/en/artworks/100372126)
 - [Argent Knight: Artemis](https://www.pixiv.net/en/artworks/77713036)
 - [Bright Knight: Excelsis](https://www.pixiv.net/en/artworks/81986704)
 - [Bright Knight: Excelsis (Derp)](https://arca.live/b/hk3rd/44117766?p=1)
@@ -92,7 +91,7 @@ If you want to update guide recommendation (signets, builds), **just make a new 
 - [Luna Kindred](https://www.pixiv.net/en/artworks/79556530)
 - [Midnight Absinthe](https://www.pixiv.net/en/artworks/90148463)
 - [Midnight Absinthe (Derp)](https://www.pixiv.net/en/artworks/93540413)
-- [Miss Pink Elf](https://www.pixiv.net/en/artworks/95371062)
+- [Miss Pink Elf](https://www.pixiv.net/en/artworks/100209041)
 - [Miss Pink Elf (Derp)](https://www.pixiv.net/en/artworks/92608687)
 - [Palatinus Equinox](https://www.pixiv.net/en/artworks/96196806)
 - [Palatinus Equinox (Derp)](https://www.pixiv.net/en/artworks/96550981)
