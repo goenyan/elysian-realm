@@ -221,27 +221,27 @@ const signets = {
       ],
     },
     {
-      name: "Hua Fast Clear",
-      recommended: "Choose HoD. Use LE if you don't have SP Regen source (See Eden / Su). Ref: <a class='italic font-bold underline' href='https://www.youtube.com/watch?v=PANm8iHz53U'>here</a>",
-      boss: "",
+      name: "",
+      recommended: "Choose Husk. Can swap SN to SS for F17. Can swap LE if you have \"Recitatif of Fine Jade\" (Check Eden) Ref: <a class='italic font-bold underline' href='https://www.youtube.com/watch?v=SPvdUDUO4eU'>here</a>",
+      boss: "Mobius",
       supports: [
         {
           time: "Early",
-          sigils: "Memory & Hometown",
-          support_1: "VC",
+          sigils: "Pseudo Miracle & Falling in the Past Light",
+          support_1: "SN",
           support_2: "LE",
         },
         {
           time: "Mid",
-          sigils: "",
-          support_1: "VC",
-          support_2: "LE / SS",
+          sigils: "Pseudo Miracle & Falling in the Past Light",
+          support_1: "SN",
+          support_2: "LE / VC / SS",
         },
         {
           time: "Late",
-          sigils: "Resolve / Proof of Good and Evil / Faraway Ship",
-          support_1: "VC",
-          support_2: "SS",
+          sigils: "Pseudo Miracle & Falling in the Past Light",
+          support_1: "SN / VC",
+          support_2: "LE / SS",
         },
       ],
       signets: [
@@ -261,7 +261,7 @@ const signets = {
             {
               name: "Blessing of Beauty",
               desc: "Using weapon active restores 1 additional Ultimate Evasion charge. Enemies take 25% bonus Total DMG when a Crystalline Seed is attached to them",
-              priority: "1st",
+              priority: "Filler",
             },
             {
               name: "Blessing of Love",
@@ -276,7 +276,59 @@ const signets = {
           ],
         },
         {
+          name: "Vill-V 2",
+          info: "\"Act III: Conflict\" interchangeable with \"Act I: Magic\", but it's good to take. Best route is take 3 or 4 Vill-V from F4 double signets, then take 1 Hua for preparation at F7 double signets. Order of Vill-V and Hua on F5 - F6 is not necessary.",
+          lists: [
+            {
+              name: "Act V: Spider Web",
+              desc: "Using a weapon active boosts Valkyrie ranged Total DMG by 40% for 3.5s. Triggering it again resets the duration",
+              priority: "1st",
+            },
+            {
+              name: "Act II: Pendulum",
+              desc: "Using a weapon active makes enemies take 20% bonus Total DMG for 3.5s. Triggering it again resets the duration",
+              priority: "2nd",
+            },
+            {
+              name: "Act IV: Spoon",
+              desc: "Using a weapon active boosts Physical DMG and Elemental DMG from Charge ATK and Combo ATK by 25% for 3.5s Triggering it again resets the duration",
+              priority: "3rd",
+            },
+            {
+              name: "Act I: Magic",
+              desc: "Using a weapon active boosts its Total DMG by 10%. 6 stacks max. Reset at the end of each battle",
+              priority: "4th",
+            },
+            {
+              name: "Act III: Conflict",
+              desc: "Using a weapon active boosts Valkyrie Total DMG by 20% for 4.5s Triggering it again resets the duration",
+              priority: "Filler",
+            },
+            {
+              name: "Nexus Signet: Intermezzo: Holistic Helix",
+              desc: "Cast weapon active to place a Special Weapon: No. 4 at a distance in front of Valkyrie. It will detonate 1s later, dealing 1500% ATK of Adaptive DMG, causing a 3s Global Time Fracture and generating a small Gravitational Field that pulls enemies and deals 100% ATK of Adaptive DMG to them per second for 6s. Only 1 Special Weapon: No. 4 can exist at a time",
+              priority: "CORE",
+            },
+            {
+              name: "Puppetry: Interlacing Cells",
+              desc: "Marvellous Magic costs 20 SP to boost its base Physical DMG by 35% and grants 30% Physical Breach for 6s",
+              priority: "1st",
+            },
+            {
+              name: "Drama: Origins of Slumber",
+              desc: "During Gravitational Field, enemies take 24% more Total DMG. During Global Time Fracture caused by detonation, enemies take 36% more Total DMG in addition",
+              priority: "2nd",
+            },
+            {
+              name: "Saga: Overlapping Needles",
+              desc: "Marvellous Magic creates 2 extra round blades dealing 2x400% ATK of Physical DMG",
+              priority: "Filler",
+            },
+          ],
+        },
+        {
           name: "Hua 2",
+          info: "Based on RNG luck. Higher priority because more effective and stronger to build after Vill-V. Otherwise, check Aponia 2. Can take \"Worldly Troubles\" and \"Lost and Found\" ONLY if having bad luck on RNG signets",
           lists: [
             {
               name: "Days Gone",
@@ -294,6 +346,11 @@ const signets = {
               priority: "3rd",
             },
             {
+              name: "Lost and Found",
+              desc: "Total DMG taken decreases by 0.8% per second. 40 stacks max. Taking DMG reduceses 10 stacks",
+              priority: "Filler"
+            },
+            {
               name: "Nexus Signet: Suffering Mass",
               desc: "Valkyries start with 6 Soldier's Remembrance stacks which boost all buffs from Normal Signets of Vicissitude to full stacks. Taking DMG reduces 1 Soldier's Remembrance stack and grants 0.5s invincibility",
               priority: "CORE",
@@ -303,62 +360,26 @@ const signets = {
               desc: "With Soldier's Remembrance stacks, the max stacks of all buffs from Normal Signets of Vicissitude increase by 20. Losing all Soldier's Remembrance stacks reduces the max stacks by 10 but restores 1 Soldier's Remembrance stack. Can only be triggered once every battle",
               priority: "1st",
             },
-          ],
-        },
-        {
-          name: "Vill-V 1",
-          info: "Based on RNG luck, if in F5 u get Vill-V, try get double bonus on F7.  Pick \"Act VIII: Adorned Chamber\" when you have another SP regen source (Check Su or Eden or LE Supp), or just skip",
-          lists: [
             {
-              name: "Act II: Pendulum",
-              desc: "Using a weapon active makes enemies take 20% bonus Total DMG for 3.5s. Triggering it again resets the duration",
-              priority: "1st",
-            },
-            {
-              name: "Act V: Spider Web",
-              desc: "Using a weapon active boosts Valkyrie ranged Total DMG by 40% for 3.5s. Triggering it again resets the duration",
-              priority: "2nd",
-            },
-            {
-              name: "Act IV: Spoon",
-              desc: "Using a weapon active boosts Physical DMG and Elemental DMG from Charge ATK and Combo ATK by 25% for 3.5s Triggering it again resets the duration",
-              priority: "3rd",
-            },
-            {
-              name: "Act I: Magic",
-              desc: "Using a weapon active boosts its Total DMG by 10%. 6 stacks max. Reset at the end of each battle",
+              name: "Worldly Troubles",
+              desc: "With Soldier's Remembrance stacks, Total DMG increases by 50% of the Total DMG Reduction percentage from all Signets",
               priority: "Filler",
-            },
-            {
-              name: "Nexus Signet: Interlude: Reversed Spiral",
-              desc: "Using a weapon active unleashes Marvellous Magic dealing 3x400% ATK of Physical DMG to enemies in front and making them take 25% bonus Total DMG for 8s. CDL 5s. The DMG is guaranteed to Crit and the weapon active is the DMG source",
-              priority: "CORE",
-            },
-            {
-              name: "Act VII: Half-Closed Door",
-              desc: "Marvellous Magic creates 2 extra round blades dealing 2x400% ATK of Physical DMG",
-              priority: "Optional",
-            },
-            {
-              name: "Act VIII: Adorned Chamber",
-              desc: "Marvellous Magic costs 20 SP to boost its base Physical DMG by 35% and grants 30% Physical Breach for 6s",
-              priority: "Optional",
-            },
-            {
-              name: "Finale: Broken Truth",
-              desc: "Marvellous Magic deals 100% bonus DMG to shields, every cast boosts it's Total DMG by 4% up to 40%",
-              priority: "Optional",
-            },
+            }
           ],
         },
         {
-          name: "Aponia 1",
-          info: "Based on RNG luck, if in F5 u get Aponia, try get double bonus on F7. Try to get \"You Shall Be Bound by Thy Body\". If fail, move on and Focus on Another Signets",
+          name: "Aponia 2",
+          info: "Based on RNG luck, less priority than Hua 2. Pick either \"Third, No Brutality\" or \"Second, No Deception\" based on RNG on her signets",
           lists: [
             {
               name: "First, No Betrayal",
               desc: "Exhortation increases by 5 per second and caps at 200. Basic ATK's Total DMG increases by 0.3% of Exhortation. Triggering Ultimate Evasion Skill reduces 50% Exhortation",
               priority: "1st",
+            },
+            {
+              name: "Second, No Deception",
+              desc: "Exhortation increases by 5 per second and caps at 200. Valkyrie has Total DMG Reduction equal to 0.3% of Exhortation. Summoning entities reduces 50% Exhortation",
+              priority: "2nd",
             },
             {
               name: "Third, No Brutality",
@@ -371,28 +392,34 @@ const signets = {
               priority: "3rd",
             },
             {
-              name: "Nexus Signet: You Shall Be Subject to Numerous Disciplines",
-              desc: "Reaching 120 Exhortation induces Mortification where Valkyrie Total DMG increases by 25% of Exhortation. Also, for every Signet of Discipline unlocked, Valkyrie deals 5% bonus Physical DMG and Elemental DMG",
+              name: "Nexus Signet: You Shall Receive Disciplines' Blessing",
+              desc: "Normal Signet of Discipline grants Exhortation 100% increase per second. When Exhortation exceeds 150, \"You Shall Know Your Sins\" will trigger every 5s around the Valkyrie, dealing 1400% ATK of Adaptive DMG. The Valkyrie deals 10% more Total DMG for each enemy hit for a total or 70%, for 10%. Triggering it again resets the duration",
               priority: "CORE",
             },
             {
-              name: "You Shall Be Bound by Thy Body",
-              desc: "In Mortification, Basic ATK has 30% Physical Breach and Elemental Breach but Ultimate deals 20% less Total DMG",
+              name: "You Shall Punish Evil",
+              desc: "Enemies struck by \"You Shall Know Your Sins\" two or more times take 40% more Total DMG. 5 SP is restored when these enemies are hit by \"You Shall Know Your Sins\"",
               priority: "1st",
+            },
+            {
+              name: "You Shall Answer Prayers",
+              desc: "Triggering \"You Shall Know Your Sins\" causes the Valkyrie to enter Penance for 8s. In Penance, the Valkyrie takes 30% less Total DMG and deals 40% more Physical and Elemental DMG to enemies. Valkyrie deals 800% ATK of Adaptive DMG to attacking enemies when hit; CD: 5s. Triggering it again resets the duration",
+              priority: "2nd",
             },
           ],
         },
         {
           name: "Kalpas 2 (Choose one)",
+          info: "Build this or check Eden 2. Can take \"Recitatif of Eden\" or \"Recitatif of Fine Jade\" from Felis Shop (check Eden)",
           lists: [
-            {
-              name: "Blade, Grave, and Scar",
-              desc: "Every 100 HP loss boosts Total DMG by 1.0%",
-              priority: "1st",
-            },
             {
               name: "Bone, Blood, and Ribbon",
               desc: "Every 100 HP loss boosts Physical & Elemental DMG by 0.8%",
+              priority: "1st",
+            },
+            {
+              name: "Blade, Grave, and Scar",
+              desc: "Every 100 HP loss boosts Total DMG by 1.0%",
               priority: "2nd",
             },
             {
@@ -408,43 +435,17 @@ const signets = {
           ],
         },
         {
-          name: "Su 2 (Choose one)",
-          info: "\"Motto of Ceto-Pariya-Nana\" is one of SP Regen source for Vill-V",
-          lists: [
-            {
-              name: "Motto of Dibba-Cakkhu",
-              desc: "Combo hits are reset at to boost Total DMG taken by all enemies by 35% for 10s",
-              priority: "1st",
-            },
-            {
-              name: "Motto of Asavakkhaya",
-              desc: "Attacks grant 25 bonus combo hits on hit. CD: 5s",
-              priority: "2nd",
-            },
-            {
-              name: "Motto of Ceto-Pariya-Nana",
-              desc: "Combo hits are reset at 150 to restore 30 SP",
-              priority: "3rd",
-            },
-            {
-              name: "Nexus Signet: Dictum of Bodhi",
-              desc: "Reaching 60/100/150 combo hits unleashes Bodhi: Eyes Open on a random enemy, dealing 800%/900%/1000% ATK of adaptive DMG and inflicting Trance. Affected enemies contribute 1 bonus combo hit on hit for 3s",
-              priority: "CORE",
-            },
-          ],
-        },
-        {
           name: "Eden 2 (Choose one)",
-          info: "Recitatif of Fine Jade become 1st for switching support (LE to SS). If can't get it, keep LE",
+          info: "Take \"Recitatif of Fine Jade\" or \"Recitatif of Good Wine\" based on RNG signets. Gameplay will change a bit with this Core, as you'll have to stop using Weapon Active into Ultimate. Otherwise, you'll get 70 charges for Eden 2",
           lists: [
-            {
-              name: "Recitatif of Eden",
-              desc: "Every 10 SP left boosts Total DMG by 3.0%",
-              priority: "1st",
-            },
             {
               name: "Recitatif of Creeks",
               desc: "Every 10 SP left boosts Physical & Elemental DMG by 2.5%",
+              priority: "1st",
+            },
+            {
+              name: "Recitatif of Eden",
+              desc: "Every 10 SP left boosts Total DMG by 3.0%",
               priority: "2nd",
             },
             {
@@ -455,7 +456,7 @@ const signets = {
             {
               name: "Recitatif of Good Wine",
               desc: "Restore 1.5 SP per second",
-              priority: "Filler",
+              priority: "3rd",
             },
             {
               name: "Nexus Signet: Echo of Gold",
@@ -465,7 +466,8 @@ const signets = {
           ],
         },
         {
-          name: "Griseo 1 (Choose one)",
+          name: "Griseo 2 (Optional)",
+          info: "Getting core signet is not necessary",
           lists: [
             {
               name: "Red & Hot",
@@ -483,9 +485,9 @@ const signets = {
               priority: "Filler",
             },
             {
-              name: "Nexus Signet: Shine like Stars",
-              desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
-              priority: "Filler",
+              name: "Nexus Signet: Faded Stars",
+              desc: "When tainted enemies are tainted another color, Blending is triggered, dealing 300% ATK of Adaptive DMG to enemies within 15m and tainting enemies purple, green, or orange based on the Enhanced Signet; CD: 1s. Total DMG increases 15% for each layer of taint, plus an additional 15% for enemies of a countered type",
+              priority: "CORE",
             },
           ],
         },
