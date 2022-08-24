@@ -213,6 +213,8 @@
         <FallenRosemary :key="key" v-if="'fr fallen rosemary rita'.includes(query)" />
         <FerventTempo :key="key" v-if="'ft fervent tempo rozaliya'.includes(query)" />
         <GoldenDiva :key="key" v-if="'golden diva eden gd'.includes(query)" />
+        <GoushinnsoMemento :key="key" v-if="'goushinnso memento ua gm yae sakura'.includes(query)" />
+        <HelicalContraption :key="key" v-if="'vill-v vill v hc helical contraption vv villy'.includes(query)" />
         <HerrscherOfFlamescion :key="key" v-if="'herrscher of flamescion hofs hfs fk kiana'.includes(query)" />
         <HerrscherOfReason :key="key" v-if="'herrscher of reason hor hr bronya'.includes(query)" />
         <HerrscherOfSentience :key="key" v-if="
@@ -243,7 +245,7 @@
 
 <script setup>
 import { ref, onMounted, watchEffect } from "vue";
-import { Switch, SwitchGroup, SwitchLabel } from "@headlessui/vue";
+import { Switch, SwitchGroup } from "@headlessui/vue";
 import Modal from "../components/Modal.vue";
 import ArgentKnightArtemis from "./Valkyries/ArgentKnightArtemis.vue";
 import BrightKnightExcelsis from "./Valkyries/BrightKnightExcelsis.vue";
@@ -252,6 +254,8 @@ import DisciplinaryPerdition from "./Valkyries/DisciplinaryPerdition.vue";
 import FallenRosemary from "./Valkyries/FallenRosemary.vue";
 import FerventTempo from "./Valkyries/FerventTempo.vue";
 import GoldenDiva from "./Valkyries/GoldenDiva.vue";
+import GoushinnsoMemento from "./Valkyries/GoushinnsoMemento.vue";
+import HelicalContraption from "./Valkyries/HelicalContraption.vue";
 import HerrscherOfFlamescion from "./Valkyries/HerrscherOfFlamescion.vue";
 import HerrscherOfReason from "./Valkyries/HerrscherOfReason.vue";
 import HerrscherOfSentience from "./Valkyries/HerrscherOfSentience.vue";
