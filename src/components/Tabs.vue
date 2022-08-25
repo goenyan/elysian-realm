@@ -15,6 +15,7 @@
     <TabPanels class="mt-2">
       <TabPanel v-for="(signet, index) in signets.builds" :key="index"
         :class="['dark:bg-slate-800 rounded-xl p-3', 'focus:outline-none']">
+        <p class="px-3 dark:text-white">Effective Patch: {{ signet.patch }}</p>
         <div class="relative p-3 rounded-md">
           <Support :support="signet" />
         </div>
