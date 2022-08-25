@@ -126,7 +126,7 @@
                   <div class="absolute inset-0 px-4 sm:px-6">
                     <div class="w-full px-2 py-4 sm:px-0">
                       <div class="w-full px-4 space-y-3">
-                        <div class="w-full p-2 mx-auto bg-gray-100 dark:bg-slate-900 rounded-2xl">
+                        <div class="w-full p-2 mx-auto bg-gray-200 dark:bg-slate-900 rounded-2xl">
                           <Tabs :signets="signets" />
                         </div>
                       </div>
