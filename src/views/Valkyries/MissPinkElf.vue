@@ -222,6 +222,7 @@ const signets = {
     },
     {
       name: "Hua Finality",
+      patch: "5.9",
       recommended: "Choose Husk. Can swap SN to SS for F17. Can swap LE if you have \"Recitatif of Fine Jade\" (Check Eden) Ref: <a class='italic font-bold underline' href='https://www.youtube.com/watch?v=SPvdUDUO4eU'>here</a>",
       boss: "Mobius",
       supports: [
