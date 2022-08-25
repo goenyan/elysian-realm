@@ -453,6 +453,7 @@ const signets = {
     },
     {
       name: "Daybreak (Kosma)",
+      patch: "5.9",
       recommended: "Choose Husk. Can swap SN to BR for F17. Ref <a class='italic font-bold underline' href='https://www.youtube.com/watch?v=6Ab8Bw54IGA'>here</a>",
       boss: "Vill-V",
       supports: [
