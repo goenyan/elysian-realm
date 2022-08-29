@@ -1,6 +1,6 @@
 # Elysian Realm Guide For Honkai Impact 3rd
 
-> For v 5.7
+> For v 5.9
 
 Elysian realm is ~~hard~~ fun 😉. I made this web-based guide because ~~why not?~~ i challenge myself since rentry just a bunch of text and hard to do some styling 💩.
 
@@ -55,7 +55,6 @@ If you want to update guide recommendation (signets, builds), **just make a new 
 - KenTJY#3888: theory crafter and tester
 - Zithr0#9800: theory crafter and tester
 - BananaCannon#3312: tester
-- ignihyde#4498: tester
 - Fujinee#3002: tester
 - Topperoonie#0484: tester
 - SinsOfSeven#3164 (TencentDimepiece): tester and fellow guide maker Signet list [here](https://rentry.org/elysian_realm_list)
@@ -67,43 +66,50 @@ If you want to update guide recommendation (signets, builds), **just make a new 
 - [Remove Background](https://www.remove.bg)
 - [Color Pallete](https://tailwindcss.com)
 - [Design Inspiration](https://www.leagueoflegends.com/en-us/champions)
-- [Argent Knight: Artemis](https://www.pixiv.net/en/artworks/78449180)
-- [Bright Knight: Excelsis](https://www.pixiv.net/en/artworks/80946649)
+- [Opengraph](https://www.pixiv.net/en/artworks/100372126)
+- [Argent Knight: Artemis](https://www.pixiv.net/en/artworks/77713036)
+- [Bright Knight: Excelsis](https://www.pixiv.net/en/artworks/81986704)
+- [Bright Knight: Excelsis (Derp)](https://arca.live/b/hk3rd/44117766?p=1)
 - [Dea Anchora](https://www.pixiv.net/en/artworks/95211825)
 - [Dea Anchora (Derp)](https://www.pixiv.net/en/artworks/86174718)
+- [Disciplinary Perdition](https://www.pixiv.net/en/artworks/98398549)
+- [Disciplinary Perdition (Derp)](https://www.pixiv.net/en/artworks/98641979)
 - [Fallen Rosemary](https://www.pixiv.net/en/artworks/91313750)
-- [Disciplinary Perdition](https://www.pixiv.net/en/artworks/97236203)
-- [Fallen Rosemary](https://www.pixiv.net/en/artworks/96067716)
 - [Fallen Rosemary (Derp)](https://www.pixiv.net/en/artworks/83801083)
+- [Fervent Tempo](https://www.pixiv.net/en/artworks/86116259)
+- [Fervent Tempo (Derp)](https://www.pixiv.net/en/artworks/84409143)
 - [Golden Diva](https://www.pixiv.net/en/artworks/98058332)
-- [Herrscher Of Flamescion](https://www.pixiv.net/en/artworks/96812573)
+- [Goushinnso Memento](https://betabooru.donmai.us/posts/4606708)
+- [Helical Contraption](https://www.pixiv.net/en/artworks/99897324)
+- [Helical Contraption (Derp)](https://www.pixiv.net/en/artworks/100650813)
+- [Herrscher Of Flamescion](https://www.pixiv.net/en/artworks/96943449)
 - [Herrscher Of Flamescion (Derp)](https://www.pixiv.net/en/artworks/91895022)
 - [Herrscher Of Reason](https://www.pixiv.net/en/artworks/76766584)
 - [Herrscher Of Sentience](https://www.pixiv.net/en/artworks/87556591)
 - [Herrscher Of Sentience (Derp)](https://www.pixiv.net/en/artworks/87340819)
 - [Herrscher Of Thunder](https://www.pixiv.net/en/artworks/92120105)
 - [Herrscher Of Thunder (Derp)](https://www.pixiv.net/en/artworks/82586491)
-- [Infinite Ouroboros](https://www.pixiv.net/en/artworks/97708364)
+- [Infinite Ouroboros](https://www.pixiv.net/en/artworks/93655752)
 - [Infinite Ouroboros (Derp)](https://www.pixiv.net/en/artworks/93540413)
 - [Luna Kindred](https://www.pixiv.net/en/artworks/79556530)
 - [Midnight Absinthe](https://www.pixiv.net/en/artworks/90148463)
 - [Midnight Absinthe (Derp)](https://www.pixiv.net/en/artworks/93540413)
-- [Miss Pink Elf](https://www.pixiv.net/en/artworks/98068711)
+- [Miss Pink Elf](https://www.pixiv.net/en/artworks/100209041)
 - [Miss Pink Elf (Derp)](https://www.pixiv.net/en/artworks/92608687)
-- [Palatinus Equinox](https://www.pixiv.net/en/artworks/96632342)
+- [Palatinus Equinox](https://www.pixiv.net/en/artworks/96196806)
 - [Palatinus Equinox (Derp)](https://www.pixiv.net/en/artworks/96550981)
 - [Prinzessin der Verurteilung](https://www.pixiv.net/en/artworks/89037210)
 - [Prinzessin der Verurteilung (Derp)](https://www.pixiv.net/en/artworks/90136506)
-- [Reverist Calico](https://www.pixiv.net/en/artworks/95894945)
+- [Reverist Calico](https://www.pixiv.net/en/artworks/97488993)
 - [Reverist Calico (Derp)](https://www.pixiv.net/en/artworks/97561126)
 - [Ritual Imayoh](https://danbooru.donmai.us/posts/2949067)
-- [Silverwing: NEX](https://www.pixiv.net/en/artworks/97031793)
+- [Silverwing: NEX](https://www.pixiv.net/en/artworks/95967370)
 - [Silverwing: NEX (Derp)](https://www.pixiv.net/en/artworks/95352520)
 - [Spina Astera](https://www.pixiv.net/en/artworks/94162225)
-- [Starchasm Nyx](https://www.pixiv.net/en/artworks/92462642)
+- [Starchasm Nyx](https://www.pixiv.net/en/artworks/99095201)
 - [Starchasm Nyx (Derp)](https://www.pixiv.net/en/artworks/89876583)
 - [Striker Fulminata](https://www.pixiv.net/en/artworks/65310941)
-- [Stygian Nymph](https://www.pixiv.net/en/artworks/82340123)
+- [Stygian Nymph](https://www.pixiv.net/en/artworks/93291345)
 - [Sweet n Spicy](https://www.pixiv.net/en/artworks/82708620)
 - [Twilight Paladin](https://www.pixiv.net/en/artworks/81324871)
 - [Valkyrie Gloria](https://www.pixiv.net/en/artworks/80022875)

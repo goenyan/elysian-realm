@@ -22,6 +22,8 @@ const signets = {
   builds: [
     {
       name: "Recommendation",
+      recommended: "Choose HoD",
+      boss: "",
       supports: [
         {
           time: "Early",
@@ -179,7 +181,7 @@ const signets = {
           ],
         },
         {
-          name: "Sakura 2 (Optional)",
+          name: "Sakura 2 (Optional, one or none)",
           lists: [
             {
               name: "Bountiful Blossom: Ume",
@@ -204,7 +206,7 @@ const signets = {
           ],
         },
         {
-          name: "Griseo 1 (Optional)",
+          name: "Griseo 1 (Optional, one or none)",
           lists: [
             {
               name: "Red & Hot",

@@ -8,11 +8,11 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "d60e06e4-9aa4-4269-a73f-9cce683beb79",
   name: "Stygian Nymph",
-  imageSrc: "/images/stygian-nymph.jpg",
+  imageSrc: "/images/stygian-nymph.png",
   imageAlt: "Stygian Nymph",
   position: "object-center",
   derp: {
-    imageSrc: "/images/stygian-nymph.jpg",
+    imageSrc: "/images/stygian-nymph.png",
     imageAlt: "Derp Stygian Nymph",
     position: "object-center",
   }
@@ -22,6 +22,8 @@ const signets = {
   builds: [
     {
       name: "Recommendation",
+      recommended: "Choose Husk",
+      boss: "",
       supports: [
         {
           time: "Early",
@@ -177,8 +179,8 @@ const signets = {
               priority: "2nd",
             },
             {
-              name: "Recitatif of Fine Jade",
-              desc: "Initial SP and max SP increase by 30",
+              name: "Recitatif of Good Wine",
+              desc: "Restore 1.5 SP per second",
               priority: "3rd",
             },
             {
